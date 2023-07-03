@@ -33,6 +33,9 @@ void loop() {
     case 63:
       Serial1.print(digitalRead(BUTTONPIN));
       break;
+    default:
+      Serial1.print("X");
+      break;
     }
   }
 }
